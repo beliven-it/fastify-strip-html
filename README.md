@@ -2,7 +2,7 @@
 
 A plugin to automatically strip HTML tags from response payload
 
-![Node.js CI](https://github.com/heply/fastify-strip-html/workflows/Node.js%20CI/badge.svg?branch=master)
+![Node.js CI](https://github.com/heply/fastify-strip-html/workflows/Node.js%20CI/badge.svg)
 
 ## Install
 
