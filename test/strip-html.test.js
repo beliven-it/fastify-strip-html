@@ -16,7 +16,7 @@ t.test('fastify-strip-html', async t => {
       t.true('stripHtml' in fastify, 'should register a "stripHtml" function')
     } catch (err) {
       console.log(err)
-      t.error(err, 'should not throw an error')
+      t.error(err, 'should not throw any error')
     }
   })
 
@@ -29,7 +29,7 @@ t.test('fastify-strip-html', async t => {
       t.equal(res, 'Hello', 'should strip HTML tags')
     } catch (err) {
       console.log(err)
-      t.error(err, 'should not throw an error')
+      t.error(err, 'should not throw any error')
     }
   })
 
@@ -44,7 +44,7 @@ t.test('fastify-strip-html', async t => {
       t.equal(res.payload, 'Hello', 'should strip HTML tags out from the response payload')
     } catch (err) {
       console.log(err)
-      t.error(err, 'should not throw an error')
+      t.error(err, 'should not throw any error')
     }
   })
 })
